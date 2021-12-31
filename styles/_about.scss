@@ -1,0 +1,56 @@
+#about {
+  padding: 80px 50px;
+  height: 100vh;
+  background-color: #f1f1f1;
+  margin-top: 80px;
+}
+
+#about > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.head {
+  font-size: 30px;
+  font-weight: 900;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about > * {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about * {
+  color: #000;
+}
+
+#about p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.mission-statement {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.children {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission-statement img {
+  height: 200px;
+  padding-bottom: 30px;
+}

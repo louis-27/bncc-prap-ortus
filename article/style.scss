@@ -1,0 +1,46 @@
+@import "colors";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  line-height: 1.6em;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: $dark;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.main-nav li {
+  list-style: none;
+  font-size: 13px;
+}
+
+.list li {
+  list-style-type: circle;
+  font-size: 14px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+/*  */
+@import "navbar", "article", "suggestions", "footer";

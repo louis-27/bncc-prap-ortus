@@ -1,0 +1,55 @@
+@import "colors";
+
+p {
+  line-height: 1.8;
+}
+
+.post {
+  max-width: 1300px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 3fr 10fr 3fr;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.4;
+}
+
+.writer {
+  padding-bottom: 10px;
+}
+.post > * {
+  grid-column: 2 / -2;
+  padding-bottom: 20px;
+}
+
+.post > figure {
+  margin: 0;
+  grid-column: 2 / -2;
+}
+
+figcaption {
+  font-size: 10px;
+}
+
+figcaption a {
+  text-decoration: underline;
+}
+
+.post > blockquote {
+  grid-column: 1 / -1;
+  font-size: 60px;
+  font-style: italic;
+  margin: 0;
+  text-align: center;
+}
+
+.top-img {
+  margin-top: 80px;
+  width: 800px;
+  margin: auto;
+}

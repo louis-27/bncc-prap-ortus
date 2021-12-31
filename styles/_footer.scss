@@ -1,0 +1,38 @@
+@import "colors";
+/*Footer*/
+.footer * {
+  background-color: $grey;
+  color: $dark;
+}
+
+.footer-inner {
+  padding: 2em 5%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer div a {
+  display: flex;
+  align-items: center;
+  padding-right: 2em;
+}
+
+.footer-inner ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-inner li {
+  padding-right: 24px;
+}
+
+.ortus-cont {
+  padding-right: 3em;
+}
+
+.ortus-cont > li {
+  font-size: 0.9em;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-cont">
+        <nav class="main-nav container">
+            <div class="place">
+                <img src="./images/logo-revisi.png" alt="Logo" class="logo">
+                <div class="name">Ortus</div>
+            </div>
+            
+            <ul class="main-list">
+                <li><a href="./articles-home.html"><i class="fas fa-chevron-left"></i> Return</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <article class="post">
+        <figure>
+            <img src="./images/1/top.png" alt="" class="top-img">
+        </figure>
+        <h1 class="title">Dua Rumus MS Excel yang Jarang Digunakan Namun Sangat Bermanfaat!</h2>
+    
+        <div class="writer">by <span>Rafi Muhammad</span></div>
+        <p>Mayoritas penduduk di Indonesia menggunakan Microsoft Excel sebagai aplikasi untuk menghitung data. Akan tetapi, Microsoft Excel juga bisa melakukan hal-hal yang lebih dari itu, seperti mengolah suatu data, kalkulasi matematis, bahkan membuat grafik pun bisa dilakukan dengan aplikasi ini.</p>
+    
+        <p>Dengan segala kegunaan yang dimiliki Microsoft Excel, tentu saja terdapat fitur-fitur yang dapat membantu user dalam menggunakan aplikasi ini, salah satunya adalah rumus atau fungsi. Rumus-rumus di Microsoft Excel sangatlah beragam. Total rumus yang terdapat di aplikasi ini sekitar 21 rumus. Setiap rumus memiliki keunikan dan kegunaannya sendiri. Berikut dua rumus yang bermanfaat, namun jarang dipakai.</p>
+
+        <h2>1. Fungsi IF</h2>
+    
+        <p>Bagi kalian yang bekerja atau melanjutkan studi di bidang IT mungkin sudah sangat familiar dengan fungsi yang satu ini. Namun, bagi kalian yang sama sekali belum mengenal fungsi ini mungkin akan kebingungan. Bagi kalian yang masih kebingungan, berikut penjelasan dan tata cara penggunaan fungsi IF.</p>
+
+        <p>Fungsi IF bisa dibagi menjadi dua, yang pertama adalah Single IF, dan yang kedua adalah Multi IF. Sesuai dengan namanya, Single IF hanya berjumlah satu dan Multi IF berjumlah lebih dari satu. Masih bingung? Berikut penjelasan dari Single IF dan Multi IF lebih lanjut.</p>
+    
+    
+        <h2>a. Single IF</h2>
+
+        <p>Sesuai namanya, Single IF terdiri dari 1 fungsi IF saja dengan format penulisan seperti di bawah ini.</p>
+        
+        <figure>
+            <img src="./images/1.png" alt="contoh penggunaan" class="small">
+        </figure>
+    
+        <p>Dari format penulisan fungsi IF di atas, terdapat 3 parameter yaitu Kondisi, Kondisi Terpenuhi, dan Kondisi Tidak Terpenuhi.</p>
+
+        <ul class="list">
+            <li><b>Kondisi:</b> Parameter ini berisi sebuah kondisi yang bisa bernilai TRUE atau FALSE.</li>
+            <li><b>Kondisi Terpenuhi:</b> Parameter ini berisi sesuatu yang akan ditampilkan, jika parameter parameter pertama terpenuhi (Bernilai TRUE).</li>
+            <li><b>Kondisi Tidak Terpenuhi:</b>Parameter ini berisi sesuatu yang akan ditampilkan jika parameter pertama tidak terpenuhi (Bernilai FALSE).</li>
+        </ul>
+    
+        <p>Apakah masih bingung? Berikut contoh penerapannya langsung di aplikasi Microsoft Excel.</p>
+
+        <figure>
+            <img src="./images/2.png" alt="contoh penggunaan" class="small">
+            <figcaption>Sumber: <a href="https://www.kelasexcel.id/2014/06/fungsi-if-excel.html">https://www.kelasexcel.id/2014/06/fungsi-if-excel.html</a></figcaption>
+        </figure>
+    
+        <p>Dapat dilihat pada kotak berwarna merah, di parameter pertama tertulis E2>140 yang berarti sistem akan mengecek apakah isi dari tabel di kolom E baris ke-2 lebih besar dari 140.  Jika E2 lebih besar dari 140 (Bernilai TRUE), parameter ke-2 akan dijalankan dan akan terlihat kata “LULUS” (Tanpa tanda petik dua). Jika tidak (Bernilai FALSE), parameter ke-3 akan dijalankan dan akan terlihat kata “GAGAL” (Tanpa tanda petik dua).</p>
+    
+        <h2>b. Multi IF</h2>
+
+        <p>Berbeda dengan Single IF, Multi IF memakai fungsi IF lebih dari 1. Ada banyak format penulisan Multi IF dan setiap format memiliki kegunaannya masing-masing. Namun, kali ini saya hanya akan menunjukkan satu format saja yang menurut saya sudah cukup untuk beberapa kondisi. Berikut format penulisan Multi IF.</p>
+        
+        <figure>
+            <img src="./images/3.png" alt="contoh penggunaan" class="small">
+        </figure>
+    
+        <p>Dari format penulisan Multi IF di atas, terdapat lima parameter, yaitu Kondisi 1, Kondisi 2, Kondisi 2 Terpenuhi, Kondisi 2 Tidak Terpenuhi, dan Kondisi 1 Tidak Terpenuhi.</p>
+
+        <ul class="list">
+            <li><b>Kondisi 1:</b> Parameter pertama ini berisi sebuah kondisi yang bisa bernilai TRUE atau FALSE.</li>
+            <li><b>Kondisi 2:</b> Parameter ke-2 ini juga berisi sebuah kondisi yang bisa bernilai TRUE atau FALSE. Kondisi ini akan dijalankan, jika kondisi 1 terpenuhi.</li>
+            <li><b>Kondisi 2 Terpenuhi:</b> Parameter ke-3 ini berisi sesuatu yang ingin ditampilkan, jika kondisi 1 dan 2 terpenuhi.</li>
+            <li><b>Kondisi 2 Tidak Terpenuhi:</b> Parameter ke-4 ini berisi sesuatu yang akan ditampilkan, jika kondisi 1 terpenuhi dan kondisi 2 tidak terpenuhi.</li>
+            <li><b>Kondisi 1 Tidak Terpenuhi:</b> Parameter ke -5 ini berisi sesuatu yang akan ditampilkan jika kondisi 1 tidak terpenuhi.</li>
+        </ul>
+    
+        <p>Berikut contoh penerapannya di Microsoft Excel.</p>
+
+        <figure>
+            <img src="./images/4.png" alt="contoh penggunaan" class="small">
+            <figcaption>Sumber: <a href="https://www.kelasexcel.id/2014/06/fungsi-if-excel.html">https://www.kelasexcel.id/2014/06/fungsi-if-excel.html</a></figcaption>
+        </figure>
+    
+        <p>Dapat dilihat pada kotak berwarna merah parameter pertama berisi C2>60. Jika kondisi terebut bernilai TRUE, lanjut ke parameter ke-2, yaitu D2>60. Jika kondisi ini juga bernilai TRUE, parameter ke-3 akan dijalankan (print LULUS). Jika bernilai FALSE, parameter ke-4 akan dijalankan (print GAGAL). Namun, jika parameter pertama bernilai FALSE, parameter ke-5 akan dijalankan (print GAGAL).</p>
+
+        <h2>2. Fungsi RANK</h2>
+
+        <p>Apakah kalian tahu ada fungsi yang dikhususkan untuk menentukan sebuah peringkat? Fungsi inilah yang berfungsi untuk menentukan peringkat dari paling tinggi ke paling rendah atau dari peringkat paling rendah ke paling tinggi.</p>
+        
+        <figure>
+            <img src="./images/5.png" alt="contoh penggunaan" class="small">
+        </figure>
+    
+        <p>Dari format di atas terdapat 3 parameter, yaitu kolom target, jangkauan, dan order.</p>
+
+        <ul class="list">
+            <li><b>Kolom Target:</b> Parameter ini berisi target dari kolom yang ingin dihitung peringkatnya.</li>
+            <li><b>Jangkauan:</b> Parameter ini berisi jangkauan kolom yang ingin dihitung peringkatnya</li>
+            <li><b>Order:</b> Parameter ini dapat diisi dengan “0” yang berarti descending atau “1” yang berarti ascending.</li>
+        </ul>
+    
+        <p>Berikut contoh penerapannya di Microsoft Excel.</p>
+
+        <figure>
+            <img src="./images/6.png" alt="contoh penggunaan" class="small">
+            <figcaption>Sumber: <a href="https://www.kelasexcel.id/2014/06/fungsi-if-excel.html">https://www.kelasexcel.id/2014/06/fungsi-if-excel.html</a></figcaption>
+        </figure>
+    
+        <p>Dapat dilihat pada kolom E tertulis =RANK.EQ(C2;$C$2:$C$11;0). Pada parameter pertama tertulis C2 berarti dia akan menyimpan nilai pada kolom C baris ke-2, yaitu 90. Kemudian, pada parameter kedua tertulis $C$2:$C$11 yang berarti dia akan mengurutkan nilai 90 dengan nilai-nilai yang ada di kolom C2 sampai C11. Di situ terdapat symbol $ agar pada saat melakukan auto fill parameternya tidak berubah. Lalu, di parameter terakhir tertulis angka 0. Berarti akan diurutkan dari nilai yang paling besar sampai yang paling kecil.</p>
+
+        <p>Setelah membaca artikel di atas, apa kalian sudah mengerti cara menggunakan rumus IF dan RANK? Kalian bisa mencobanya di rumah dan berlatih menggunakannya agar lebih terbiasa. Contohnya adalah kalian bisa menggunakan fungsi RANK untuk menentukan ranking kelas atau angkatan. Selain itu, kalian bisa menggunakan fungsi IF untuk menentukan nilai-nilai yang berada di atas KKM atau sebaliknya.</p>
+
+        <p>Semoga informasi di atas dapat membantu kalian yang sedang mencoba untuk menggunakan Microsoft Excel ya! Sampai jumpa di artikel selanjutnya!</p>
+        
+    
+    </article>
+    
+
+    <footer class="footer">
+        <div class="footer-inner">
+          <div><span>Made with <i class="far fa-heart"></i> by Ortus</span></div>
+          <span class="ortus-cont">
+            &copy; Ortus
+          </span>
+        </div>
+    </footer>
+</body>
+</html>

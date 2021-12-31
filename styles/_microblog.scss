@@ -1,0 +1,35 @@
+@import "colors";
+#image-slider {
+  width: 600px;
+}
+
+#image-slider .splide__slide img {
+  width: 600px;
+  height: auto;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-around;
+  background: #1a253e;
+}
+
+.blog > * {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.blog .caption {
+  color: white;
+  max-width: 500px;
+}
+
+.blog .caption h1 {
+  color: #f1c90d;
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+
+.blog .caption p {
+  padding-bottom: 30px;
+}

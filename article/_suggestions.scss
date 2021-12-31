@@ -1,0 +1,30 @@
+.suggestions {
+  margin-top: 180px;
+  margin-bottom: 150px;
+}
+
+.suggestions > * {
+  padding-bottom: 80px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.items > * {
+  align-self: center;
+}
+
+.items img {
+  width: 500px;
+}
+
+.items .keys p {
+  max-width: 600px;
+}
+
+.keys {
+  width: 55%;
+}

@@ -1,0 +1,64 @@
+#contact {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: block;
+  font-size: 15px;
+}
+
+.form-group {
+  padding-bottom: 15px;
+}
+
+.contact-us {
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-bottom: 50px;
+}
+
+.contact-section img {
+  width: 650px;
+}
+
+.form-class {
+  padding: 40px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form-class .form-group {
+  padding-bottom: 10px;
+}
+
+.form-class label {
+  display: block;
+}
+
+.form-class input[type="text"],
+.form-class input[type="email"],
+.form-class textarea,
+.form-class select {
+  padding: 2px;
+  width: 100%;
+}
+
+.form-class input[type="submit"] {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #000000;
+  border: none;
+  padding: 8px;
+}

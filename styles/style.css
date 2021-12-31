@@ -1,0 +1,359 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  line-height: 1.6em;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #262626;
+}
+
+li {
+  list-style: none;
+  font-size: 13px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/*  */
+#image-slider {
+  width: 600px;
+}
+
+#image-slider .splide__slide img {
+  width: 600px;
+  height: auto;
+}
+
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #1a253e;
+}
+
+.blog > * {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.blog .caption {
+  color: white;
+  max-width: 500px;
+}
+
+.blog .caption h1 {
+  color: #f1c90d;
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+
+.blog .caption p {
+  padding-bottom: 30px;
+}
+
+.group-6 {
+  width: 800px;
+  margin-top: 80px;
+}
+
+/* Navigation */
+.nav-cont {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 80px;
+  padding: 15px 0 25px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav ul li {
+  padding: 0 10px;
+  font-weight: 800;
+}
+
+.main-nav ul.main-list a:hover {
+  border-bottom: 2px solid #262626;
+}
+
+.main-nav ul.main-list .contact-btn:hover {
+  border-bottom: none;
+}
+
+.logo {
+  width: 54px;
+}
+
+.place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.place > .name {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: 5px;
+  font-weight: 1000;
+  font-size: 24px;
+}
+
+.main-list .contact-btn {
+  background-color: #262626;
+  padding: 15px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+#about {
+  padding: 80px 50px;
+  height: 100vh;
+  background-color: #f1f1f1;
+  margin-top: 80px;
+}
+
+#about > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+}
+
+.head {
+  font-size: 30px;
+  font-weight: 900;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about * {
+  color: #000;
+}
+
+#about p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.mission-statement {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.children {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mission-statement img {
+  height: 200px;
+  padding-bottom: 30px;
+}
+
+#contact {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+label {
+  display: block;
+  font-size: 15px;
+}
+
+.form-group {
+  padding-bottom: 15px;
+}
+
+.contact-us {
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.contact-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  padding-bottom: 50px;
+}
+
+.contact-section img {
+  width: 650px;
+}
+
+.form-class {
+  padding: 40px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form-class .form-group {
+  padding-bottom: 10px;
+}
+
+.form-class label {
+  display: block;
+}
+
+.form-class input[type="text"],
+.form-class input[type="email"],
+.form-class textarea,
+.form-class select {
+  padding: 2px;
+  width: 100%;
+}
+
+.form-class input[type="submit"] {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #000000;
+  border: none;
+  padding: 8px;
+}
+
+/*Footer*/
+.footer * {
+  background-color: #f8f8f8;
+  color: #262626;
+}
+
+.footer-inner {
+  padding: 2em 5%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 2em;
+}
+
+.footer-inner ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer-inner li {
+  padding-right: 24px;
+}
+
+.ortus-cont {
+  padding-right: 3em;
+}
+
+.ortus-cont > li {
+  font-size: 0.9em;
+}
+/*# sourceMappingURL=style.css.map */
